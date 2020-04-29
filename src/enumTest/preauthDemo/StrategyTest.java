@@ -11,6 +11,8 @@ public class StrategyTest {
         System.out.println("鉴权结果3" + d);
         affffffffafffff
         ggggggggg
+        tttttttttttttt
+
         */
 
         Context context = new Context(new GWstake());
