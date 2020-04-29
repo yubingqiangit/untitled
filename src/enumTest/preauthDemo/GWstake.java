@@ -1,11 +1,12 @@
 package enumTest.preauthDemo;
 
+
 import java.util.Arrays;
 
 /**
  * ABD策略
  */
-public class GWstake implements  StrategyService {
+public class GWstake implements StrategyService {
 
     @Override
     public boolean preAuth(String type) {
@@ -15,7 +16,7 @@ public class GWstake implements  StrategyService {
         StrategyEnum anEnum = StrategyEnum.valueOf("PREAUTHD");
 
         StrategyEnum[] values = StrategyEnum.values();
-        Arrays.stream(values).forEach(x->{
+        Arrays.stream(values).forEach(x -> {
             System.out.println(x.type());
         });
         System.out.println("============================");
