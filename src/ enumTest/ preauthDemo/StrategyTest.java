@@ -9,7 +9,7 @@ public class StrategyTest {
         System.out.println("鉴权结果1" + b);
         System.out.println("鉴权结果2" + c);
         System.out.println("鉴权结果3" + d);
-        aaaab
+        affffffffafffff
         */
 
         Context context = new Context(new GWstake());
