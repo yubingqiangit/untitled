@@ -5,12 +5,10 @@ package enumTest.preauthDemo;
  */
 public enum StrategyEnum {
 
-    PREAUTHA("订单重复",StrategyInteface.preauthA()),
-    PREAUTHB("账户鉴权",StrategyInteface.preauthB()),
-    PREAUTHC("用户鉴权",StrategyInteface.preauthC()),
-    PREAUTHD("花枝鉴权",StrategyInteface.preauthD());
-
-
+    PREAUTHA("订单重复", StrategyInteface.preauthA()),
+    PREAUTHB("账户鉴权", StrategyInteface.preauthB()),
+    PREAUTHC("用户鉴权", StrategyInteface.preauthC()),
+    PREAUTHD("花枝鉴权", StrategyInteface.preauthD());
 
 
     private String type;
@@ -21,11 +19,15 @@ public enum StrategyEnum {
         this.service = service;
     }
 
-    public String type(){
+    public String type() {
+        return getString();
+    }
+
+    private String getString() {
         return type;
     }
 
-    public StrategyInteface service(){
+    public StrategyInteface service() {
         return service;
     }
 }

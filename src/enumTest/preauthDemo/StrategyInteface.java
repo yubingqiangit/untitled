@@ -1,7 +1,7 @@
 package enumTest.preauthDemo;
 
 /**
- * 策略实现
+ * 业务策略
  */
 public interface StrategyInteface {
 
