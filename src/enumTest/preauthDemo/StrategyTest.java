@@ -8,7 +8,8 @@ public class StrategyTest {
         boolean d = StrategyEnum.valueOf("PREAUTHC").service().preauth("用户鉴权");
         System.out.println("鉴权结果1" + b);
         System.out.println("鉴权结果2" + c);
-        System.out.println("鉴权结果3" + d);*/
+        System.out.println("鉴权结果3" + d);
+        */
 
         Context context = new Context(new GWstake());
         context.preauth("请求参数对象");
