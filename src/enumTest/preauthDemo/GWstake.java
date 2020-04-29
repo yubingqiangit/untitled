@@ -3,6 +3,10 @@ package enumTest.preauthDemo;
 import java.util.Arrays;
 
 /**
+ * ADD策略组合
+ */
+
+/**
  * ABD策略
  */
 public class GWstake implements  StrategyService {

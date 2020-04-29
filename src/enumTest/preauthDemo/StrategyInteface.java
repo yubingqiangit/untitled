@@ -1,5 +1,8 @@
 package enumTest.preauthDemo;
 
+/**
+ * 策略实现
+ */
 public interface StrategyInteface {
 
     boolean preauth(String type);

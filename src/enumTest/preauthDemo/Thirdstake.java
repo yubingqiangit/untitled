@@ -1,7 +1,7 @@
 package enumTest.preauthDemo;
 
 /**
- * BC策略
+ * BC策略组合
  */
 public class Thirdstake implements StrategyService {
 

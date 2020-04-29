@@ -1,5 +1,8 @@
 package enumTest.preauthDemo;
 
+/**
+ * 上下文
+ */
 public class Context {
     StrategyService strategyService;
 

@@ -1,5 +1,8 @@
 package enumTest.preauthDemo;
 
+/**
+ * 枚举策略
+ */
 public enum StrategyEnum {
 
     PREAUTHA("订单重复",StrategyInteface.preauthA()),
