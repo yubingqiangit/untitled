@@ -12,7 +12,7 @@ public class StrategyTest {
         affffffffafffff
         ggggggggg
         tttttttttttttt
-
+        hhhhhhh
         */
 
         Context context = new Context(new GWstake());
