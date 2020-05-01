@@ -32,6 +32,8 @@ public class Desc {
      *
      * 14.CTRL + ALT + M 抽取方法
      *
+     * 15.自动补全引号  ctrl + shift + enter
+     *
      *
      *
      *
