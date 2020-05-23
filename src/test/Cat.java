@@ -9,6 +9,8 @@ public class Cat {
         list.add("2");
         list.add("3");
         String one = getOne(list);
+              String one = getOne(list);
+              String one = getOne(list);
 
     }
 
