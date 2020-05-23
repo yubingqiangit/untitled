@@ -9,14 +9,7 @@ public class Cat {
         list.add("2");
         list.add("3");
         String one = getOne(list);
-        System.out.println(one);
-        System.out.println(one);
-        System.out.println(one);
 
-        System.out.println("hahahahahahahahah");
- System.out.println("hahahahahahahahah");
- System.out.println("hahahahahahahahah");
- System.out.println("hahahahahahahahah");
     }
 
 
