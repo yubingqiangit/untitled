@@ -14,6 +14,9 @@ public class Cat {
         System.out.println(one);
 
         System.out.println("hahahahahahahahah");
+ System.out.println("hahahahahahahahah");
+ System.out.println("hahahahahahahahah");
+ System.out.println("hahahahahahahahah");
     }
 
 
