@@ -12,7 +12,8 @@ public class Cat {
         System.out.println(one);
         System.out.println(one);
         System.out.println(one);
-        System.out.println("huhuhuhuhhhu");
+
+        System.out.println("hahahahahahahahah");
     }
 
 
