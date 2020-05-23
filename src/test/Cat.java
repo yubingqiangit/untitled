@@ -10,6 +10,7 @@ public class Cat {
         list.add("3");
         String one = getOne(list);
         System.out.println(one);
+        System.out.println(one);
 
     }
 
