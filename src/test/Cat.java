@@ -11,7 +11,8 @@ public class Cat {
         String one = getOne(list);
         System.out.println(one);
         System.out.println(one);
-
+        System.out.println(one);
+        System.out.println("huhuhuhuhhhu");
     }
 
 
