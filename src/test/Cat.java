@@ -1,35 +1,35 @@
 package test;
 
-/**
- * singleton 单例模式
- * 1.单例类只能有一个实例
- * 2.单例类必须自己创建自己的唯一实例
- * 3.单例类必须给其他所有对象提供这一实例
- *
- *
- */
+import java.util.ArrayList;
+
 public class Cat {
-    private String name;
-    private Integer age;
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("13333");
+        list.add("13333");
+        list.add("13333");
+        list.add("13333");
 
-    private Cat cat = null;
+        String one = getOne(list);
+            
 
-
-
-
-    public String getName() {
-        return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public Integer getAge() {
-        return age;
-    }
+    /**
+     * 获取集合第一个参数
+     * @param list
+     * @param <T>
+     * @return
+     */
+    public static <T>T getOne(ArrayList<T> list){
 
-    public void setAge(Integer age) {
-        this.age = age;
+        return list.get(0);
     }
 }
