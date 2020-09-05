@@ -1,26 +1,35 @@
 package test;
 
-import java.util.ArrayList;
-
+/**
+ * singleton 单例模式
+ * 1.单例类只能有一个实例
+ * 2.单例类必须自己创建自己的唯一实例
+ * 3.单例类必须给其他所有对象提供这一实例
+ *
+ * 
+ */
 public class Cat {
-    public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>();
-        list.add("1");
-      
-        String one = getOne(list);
-            
+    private String name;
+    private Integer age;
 
+    private Cat cat = null;
+
+
+
+
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    /**
-     * 获取集合第一个参数
-     * @param list
-     * @param <T>
-     * @return
-     */
-    public static <T>T getOne(ArrayList<T> list){
+    public Integer getAge() {
+        return age;
+    }
 
-        return list.get(0);
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
