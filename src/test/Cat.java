@@ -6,7 +6,7 @@ package test;
  * 2.单例类必须自己创建自己的唯一实例
  * 3.单例类必须给其他所有对象提供这一实例
  *
- * 
+ *
  */
 public class Cat {
     private String name;
