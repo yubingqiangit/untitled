@@ -6,7 +6,12 @@ public class Cat {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("1");
-      
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+        list.add("1");
+
         String one = getOne(list);
             
 
