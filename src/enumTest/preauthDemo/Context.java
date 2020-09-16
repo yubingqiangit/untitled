@@ -14,4 +14,8 @@ public class Context {
 
         return  strategyService.preAuth(type);
     }
+
+    public void hhhh() {
+        Integer b = 2;
+    }
 }
