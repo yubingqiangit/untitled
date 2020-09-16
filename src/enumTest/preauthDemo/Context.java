@@ -12,6 +12,7 @@ public class Context {
 
     public boolean preauth(String type){
 
+      Integer a = 222;
         return  strategyService.preAuth(type);
     }
 }
